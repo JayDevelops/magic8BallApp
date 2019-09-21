@@ -53,7 +53,7 @@ class ViewController: UIViewController {
     
     /* Function Event when user has stopped shaking the
       device, will call to the 'ballChanging' function*/
-    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         ballChanging()
     }
     
